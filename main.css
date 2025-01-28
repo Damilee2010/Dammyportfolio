@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    color: #ffffff;
+}
+
+body{
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.827);
+}
+
+.active{
+    border-bottom: 2px solid #64a4cf;
+    font-size: 17px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+nav img{
+    margin-left: 80px;
+    border-radius: 6px;
+}
+nav h1{
+    margin-left: 6%;
+    width: 30%;
+}
+nav ul{
+    width: 60%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 80px;
+    
+}
+
+.intro{
+    width: 90%;
+    height: 580px;
+    display: flex;
+    justify-self: center;
+}
+
+.name{
+    height: 300px;
+    width: 30%;
+    margin-top: 50px;
+}
+
+.name h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.border{
+    width: 40px;
+    border-bottom: 1px solid rgba(255, 255, 0, 0.82);
+}
+
+p.behance{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.btn1{
+    margin-top: 20px;
+    padding: 8px ;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 0, 0.82);
+}
+
+.name .email{
+    margin-top: 20%;
+    color: #ffffff60;
+}
+
+.email table{
+    gap: 15px;
+    color: #ffffff60;
+    font-family: monospace;
+}
+
+.email  td{
+   padding: 10px;
+}
+.img{
+    width: 40%;
+    height: 100%;
+    margin-top: 50px;
+}
+.img img{
+    height: 100%;
+    width: 90%;
+    border-radius: 20px;
+}
+.introduction{
+    height: 300px;
+    width: 30%;
+    margin-top: 50px;
+}
+
+
+.introduction h5{
+    margin-top: 30px;
+    color: rgba(255, 255, 0, 0.811);
+}
+
+.introduction h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+    .introduction p{
+        font-size: 13px;
+        font-weight: 100;
+     }
+
+     main{
+        width: 80%;
+        height: 600px;
+        margin-top: 30px;
+        display: flex;
+        align-self: center;
+        justify-self:center ;
+        flex-wrap: wrap;
+
+     }
+
+     .imgs{
+      width: 40%;
+    height: 80%;
+    margin-top: 10px;
+     }
+
+     .imgs img{
+        height: 100%;
+        width: 90%;
+        border-top-left-radius: 80px;
+        border-bottom-right-radius: 90px;
+     }
+
+     .about{
+        width: 50%;
+     }
+     .about h4{
+        font-size: 16px;
+        margin-top: 40px;
+        color: #9a6068;
+        margin-bottom: 7px;
+
+     }
+
+     .about p{
+        margin-top: 14px;
+     }
+
+     .moreinfo{
+        margin-top: 20px;
+        border-top: 1px solid #9a6068;
+     }
+
+     .moreinfo{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 20px;
+       }
+
+       .moreinfo table{
+        display: flex;
+        flex-wrap: wrap;
+        
+       }
+
+       .moreinfo table tr, th, td{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+       }
+
+       .btn2{
+        background-color:  #9a6068;
+        border: none;
+        padding: 12px 15px;
+        margin-top: 10px;
+        border-radius: 5px;
+       }
+
+       .card{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+         width: 90%;
+        height: 700px;
+        margin-top: 30px;
+        display: flex;
+        align-self: center;
+        justify-self:center ;
+        overflow-y: scroll;
+        
+       }
+       .cards{
+        height: 300px;
+        width: x;
+        background-color: transparent;
+        
+        border-radius: 20px;
+       }
+
+       .cards img{
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+       }
+
+       footer{
+        border-top: 1px solid rgba(255, 255, 0, 0.811);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+       
+       }
+
+
+       .mct{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+       }
+       .contact{
+        height: 400px;
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        align-self: center;
+       }
+
+      .ways{
+        height: 180px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+
+      .ways h4{
+        padding: 8px;
+        font-weight: 200;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 17px;color: #9a6068;
+      }
+
+      .ways h2{
+        padding: 8px;
+        font-weight: 200;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 23px;
+      }
+
+      
+      .box{
+        height: 150px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+
+      .box .btn3{
+        padding: 12px 15px;
+        background-color: rgba(255, 255, 255, 0.033);
+        border: none;
+      }
+
+.services{
+    height: 550px;
+    background-color: #64a4cf;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
